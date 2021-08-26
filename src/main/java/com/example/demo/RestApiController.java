@@ -31,7 +31,7 @@ public class RestApiController {
 
         driver.get("https://www.google.com/search?q=selenium");
         //driver.close();
-        driver.quit();
+        //driver.quit();
         return "Test Completed";
     }
     
