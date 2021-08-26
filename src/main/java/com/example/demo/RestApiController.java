@@ -29,8 +29,8 @@ public class RestApiController {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
-        driver.get("http://google.com");
-        driver.close();
+        driver.get("https://www.google.com/search?q=selenium");
+        //driver.close();
         driver.quit();
         return "Test Completed";
     }
